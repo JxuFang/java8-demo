@@ -1,6 +1,7 @@
 package com.demo.java8.lambda.basic;
 
+@FunctionalInterface
 public interface FunInterface {
 
-    String hello();
+    void hello();
 }
